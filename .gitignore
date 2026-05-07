@@ -1,0 +1,34 @@
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Large installers and PDFs
+*.exe
+*.msi
+*.pdf
+*.jpeg
+*.jpg
+*.png
+*.mp4
+
+# Dependencies (will be in node_modules per project)
+node_modules/
+*/node_modules/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Build outputs
+dist/
+build/
+out/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
