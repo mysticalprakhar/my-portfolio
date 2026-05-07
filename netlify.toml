@@ -1,0 +1,4 @@
+[build]
+  base = "prakhar-portfolio/portfolio"
+  command = "npm install && npm run build"
+  publish = "dist"
